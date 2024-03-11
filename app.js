@@ -70,7 +70,7 @@ app.get('/exportar-excel', async (req, res) => {
     worksheet.columns = [
       { header: 'Fecha Foto', key: 'fechaFoto', width: 15 },
       { header: 'Segmento', key: 'segmento', width: 15 },
-      // Agrega aquí las demás columnas
+      // Agrega aquí las demás columnas del api
     ];
 
     // Agregar datos a la hoja de cálculo
